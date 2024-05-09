@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../images/logo.png";
 import { links } from "../data";
+import { FaBars } from "react-icons/fa";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -19,6 +20,9 @@ const Navbar = () => {
             );
           })}
         </ul>
+        <button className="nav__toggle-btn">
+          <FaBars />
+        </button>
       </div>
     </nav>
   );
