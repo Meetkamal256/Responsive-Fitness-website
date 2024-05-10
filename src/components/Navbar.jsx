@@ -8,6 +8,9 @@ import "./navbar.css";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
+  const closeNavbar = () => {
+    setIsNavShowing(false);
+  };
 
   return (
     <nav>
@@ -24,6 +27,7 @@ const Navbar = () => {
                 <NavLink
                   to={path}
                   className={({ isActive }) => (isActive ? "active-nav" : "")}
+                  onClick={closeNavbar}
                 >
                   {name}
                 </NavLink>
