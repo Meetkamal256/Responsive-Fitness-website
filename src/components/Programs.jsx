@@ -10,21 +10,22 @@ const Programs = () => {
     <section className="programs">
       <div className="container programs__container">
         <SectionHead icon={<FaCrown />} title={"Programs"} />
-      </div>
-      <div className="programs__wrapper">
-        {programs.map((program) => {
-          const { id, icon, title, info, path } = program;
-          return (
-            <Card className="programs__program" key={id}>
-              <span>{icon}</span>
-              <h4>{title}</h4>
-              <small>{info}</small>
-              <Link to={path} className="btn sm">
-                Learn more <AiFillCaretRight />
-              </Link>
-            </Card>
-          );
-        })}
+        
+        <div className="programs__wrapper">
+          {programs.map((program) => {
+            const { id, icon, title, info, path } = program;
+            return (
+              <Card className="programs__program" key={id}>
+                <span>{icon}</span>
+                <h4>{title}</h4>
+                <small>{info}</small>
+                <Link to={path} className="btn sm">
+                  Learn more <AiFillCaretRight />
+                </Link> 
+              </Card>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
