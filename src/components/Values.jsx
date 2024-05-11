@@ -1,4 +1,4 @@
-import Image from "../images/values.jpg";
+import Image from "../images/gallery20.jpg";
 import SectionHead from "./SectionHead";
 import { GiCutDiamond } from "react-icons/gi";
 import { values } from "../data";
@@ -9,13 +9,18 @@ const Values = () => {
     <section className="values">
       <div className="container values__container">
         <div className="values__left">
-          <img src={Image} alt="Values Image" />
+          <div className="values__image">
+            <img src={Image} alt="Values Image" />
+          </div>
         </div>
         <div className="values__right">
           <SectionHead icon={<GiCutDiamond />} title={"Values"} />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-            expedita.
+            At our gym, our core values define us. With a commitment to
+            excellence, community support, innovation, and integrity, we create
+            an environment where members thrive. Welcome to a place where values
+            matter, and we're dedicated to helping you reach new heights on your
+            fitness journey.
           </p>
           <div className="values__wrapper">
             {values.map(({ id, icon, title, desc }) => {

@@ -65,33 +65,33 @@ export const programs = [
     path: "/programs/444",
   },
 ];
-
 export const values = [
   {
     id: 1,
     icon: <SiOpenaigym />,
-    title: "Value One",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Commitment to Excellence",
+    desc: "We provide top-quality experiences in training and facilities.",
   },
   {
     id: 2,
     icon: <SiOpenaigym />,
-    title: "Value Two",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Community & Support",
+    desc: "We foster a supportive community that motivates and inspires.",
   },
   {
     id: 3,
     icon: <SiOpenaigym />,
-    title: "Value Three",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Innovation & Progress",
+    desc: "We stay ahead with cutting-edge equipment and methods.",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
-    title: "Value Four",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    title: "Integrity & Trust",
+    desc: "We operate with honesty and transparency, earning trust daily.",
   },
 ];
+
 
 export const faqs = [
   {
