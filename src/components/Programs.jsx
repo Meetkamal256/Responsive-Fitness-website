@@ -21,7 +21,7 @@ const Programs = () => {
                 <small>{info}</small>
                 <Link to={path} className="btn sm">
                   Learn more <AiFillCaretRight />
-                </Link> 
+                </Link>
               </Card>
             );
           })}

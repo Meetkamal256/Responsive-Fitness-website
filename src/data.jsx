@@ -1,4 +1,7 @@
 import { SiOpenaigym } from "react-icons/si";
+import { FaRunning } from "react-icons/fa";
+import { GrYoga } from "react-icons/gr";
+import { GiStrong } from "react-icons/gi";
 
 export const links = [
   {
@@ -32,34 +35,33 @@ export const links = [
     path: "/contact",
   },
 ];
-
 export const programs = [
   {
     id: 1,
-    icon: <SiOpenaigym />,
-    title: "Program One",
-    info: "This is the day that the lord has made. We will rejoice!",
+    icon: <FaRunning />,
+    title: "Cardio Blast",
+    info: "Boost cardiovascular health, burn calories, and achieve fitness goals with dynamic Cardio Blast workouts.",
     path: "/programs/111",
   },
   {
     id: 2,
-    icon: <SiOpenaigym />,
-    title: "Program Two",
-    info: "This is the day that the lord has made. We will rejoice!",
+    icon: <GiStrong />,
+    title: "Strength Training",
+    info: "Build strength, tone muscles, and sculpt your body with effective Strength Training exercises.",
     path: "/programs/222",
   },
   {
     id: 3,
-    icon: <SiOpenaigym />,
-    title: "Program Three",
-    info: "This is the day that the lord has made. We will rejoice!",
+    icon: <GrYoga />,
+    title: "Yoga & Meditation",
+    info: "Find balance, flexibility, and inner peace with transformative Yoga & Meditation sessions.",
     path: "/programs/333",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
-    title: "Program Four",
-    info: "This is the day that the lord has made. We will rejoice!",
+    title: "HIIT",
+    info: "Maximize calorie burn and boost metabolism with efficient High Intensity Interval Training (HIIT) workouts.",
     path: "/programs/444",
   },
 ];
