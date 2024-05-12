@@ -131,6 +131,12 @@ export const faqs = [
   },
 ];
 
+import avatar1 from "./images/avatar1.jpg";
+import avatar2 from "./images/avatar2.jpg";
+import avatar3 from "./images/avatar3.jpg";
+import avatar4 from "./images/avatar4.jpg";
+import avatar5 from "./images/avatar5.jpg";
+
 export const testimonials = [
   {
     id: 1,
@@ -138,7 +144,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
     job: "Student",
-    avatar: import("./images/avatar1.jpg"),
+    avatar: avatar1,
   },
   {
     id: 2,
@@ -146,7 +152,7 @@ export const testimonials = [
     quote:
       "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "Software Egineer",
-    avatar: import("./images/avatar2.jpg"),
+    avatar: avatar2,
   },
   {
     id: 3,
@@ -154,7 +160,7 @@ export const testimonials = [
     quote:
       "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "University Lecturer",
-    avatar: import("./images/avatar3.jpg"),
+    avatar: avatar3,
   },
   {
     id: 4,
@@ -162,7 +168,7 @@ export const testimonials = [
     quote:
       "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "Talking Parrot",
-    avatar: import("./images/avatar4.jpg"),
+    avatar: avatar4,
   },
   {
     id: 5,
@@ -170,7 +176,7 @@ export const testimonials = [
     quote:
       "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
     job: "Pharmacist",
-    avatar: import("./images/avatar5.jpg"),
+    avatar: avatar5,
   },
 ];
 
