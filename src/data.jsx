@@ -92,43 +92,42 @@ export const values = [
   },
 ];
 
-
 export const faqs = [
   {
     id: 1,
     question: "How often should I exercise?",
     answer:
-      "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
+      "It's recommended to exercise at least 3-4 times per week for general health. However, the frequency may vary depending on your fitness goals and personal schedule.",
   },
   {
     id: 2,
     question: "What time of day is best to work out?",
     answer:
-      "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.",
+      "The best time to work out is whenever you can fit it into your schedule and when you feel most energized. Some people prefer mornings for a boost to start the day, while others prefer evenings to unwind and de-stress.",
   },
   {
     id: 3,
     question: "How long should my workouts be?",
     answer:
-      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "The duration of your workouts depends on factors such as your fitness level, goals, and time availability. Aim for at least 30 minutes of moderate-intensity exercise per session, but feel free to adjust based on your needs.",
   },
   {
     id: 4,
     question: "Do I need to warm up before my workouts?",
     answer:
-      "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!",
+      "Yes, warming up is essential to prepare your body for exercise and reduce the risk of injury. Spend 5-10 minutes performing dynamic stretches and light aerobic exercises to increase blood flow and loosen up your muscles.",
   },
   {
     id: 5,
     question: "Should I do strength training, cardio or both?",
     answer:
-      "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.",
+      "Incorporating both strength training and cardio into your fitness routine offers numerous benefits. Strength training helps build muscle and improve strength, while cardio enhances cardiovascular health and aids in calorie burning. It's ideal to strike a balance between the two for overall fitness.",
   },
   {
     id: 6,
     question: "Should I lift weights for strength training?",
     answer:
-      "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.",
+      "Yes, lifting weights is an effective form of strength training that helps build muscle mass, increase strength, and improve overall fitness. Whether you're a beginner or advanced lifter, incorporating weightlifting into your routine can lead to significant benefits.",
   },
 ];
 
