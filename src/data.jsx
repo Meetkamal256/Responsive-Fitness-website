@@ -140,42 +140,42 @@ import avatar5 from "./images/avatar5.jpg";
 export const testimonials = [
   {
     id: 1,
-    name: "Diana Ayi",
+    name: "Sarah Tancredi",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-    job: "Student",
+      "I've never felt more motivated to workout! The trainers here are amazing and the community is so supportive.",
+    job: "Fitness Enthusiast",
     avatar: avatar1,
   },
   {
     id: 2,
-    name: "Daniel Vinyo",
+    name: "Alice Smith",
     quote:
-      "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "Software Egineer",
+      "FitHub has truly changed my life. I've gained so much confidence and strength since joining.",
+    job: "Yoga Instructor",
     avatar: avatar2,
   },
   {
     id: 3,
-    name: "Edem Quist",
+    name: "Michael Johnson",
     quote:
-      "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "University Lecturer",
+      "I've been to many gyms before, but none compare to FitHub. The atmosphere here is unparalleled.",
+    job: "Personal Trainer",
     avatar: avatar3,
   },
   {
     id: 4,
-    name: "Grace Lavoe",
+    name: "Emily Brown",
     quote:
-      "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "Talking Parrot",
+      "As a busy mom, finding time for exercise was tough. FitHub's flexible classes and childcare options made it possible for me to prioritize my health.",
+    job: "Stay-at-home Parent",
     avatar: avatar4,
   },
   {
     id: 5,
-    name: "Nana Yaa Dankwa",
+    name: "David Clark",
     quote:
-      "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-    job: "Pharmacist",
+      "I've been a member of FitHub for years now, and I can confidently say it's the best investment I've made for my health.",
+    job: "Business Executive",
     avatar: avatar5,
   },
 ];
