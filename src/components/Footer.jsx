@@ -53,7 +53,7 @@ const Footer = () => {
           <Link to="/contact">Contact</Link>
         </article>
         <article>
-          <h4>Permalinks</h4>
+          <h4>Insights</h4>
           <Link to="/s">Blog</Link>
           <Link to="/s">Case Studies</Link>
           <Link to="/s">Events</Link>
@@ -61,7 +61,7 @@ const Footer = () => {
           <Link to="/s">FAQs</Link>
         </article>
         <article>
-          <h4>Permalinks</h4>
+          <h4>Get in touch</h4>
           <Link to="/contact">Contact Us</Link>
           <Link to="/s">Support</Link>
         </article>
