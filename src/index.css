@@ -159,6 +159,33 @@ section {
 
 .card small {
   margin-top: 1rem;
-  display: block; 
+  display: block;
   font-weight: 300;
+}
+
+/* MEDIA QUERIES (medium screens) */
+@media screens and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* MEDIA QUERIES (small screens) */
+@media screens and (max-width: 600px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
 }
