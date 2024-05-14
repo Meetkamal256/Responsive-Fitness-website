@@ -1,22 +1,22 @@
 import Header from "../../components/Header";
-import "./about.css";
 import HeaderImage from "../../images/header_bg_1.jpg";
 import StoryImage from "../../images/about1.jpg";
 import VisionImage from "../../images/about2.jpg";
 import MissionImage from "../../images/about3.jpg";
+import "./about.css";
 
 const About = () => {
   return (
     <>
       <Header title="About Us" image={HeaderImage}>
-        Welcome to FitHub, where fitness meets community. Our mission is to
-        empower individuals to achieve their fitness goals in a supportive and
-        motivating environment.
+        Welcome to FitHub, where fitness meets community. Our mission: empower
+        individuals to achieve their fitness goals in a supportive, motivating
+        environment.
       </Header>
 
       <section className="about__story">
         <div className="container about__story-container">
-          <div className="about__section-image">
+          <div className="about__section-image" style={{ borderRadius: "50%" }}>
             <img src={StoryImage} alt="our story image" />
           </div>
           <div className="about__section-content">
