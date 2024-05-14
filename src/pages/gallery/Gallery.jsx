@@ -1,7 +1,49 @@
+import React, { useState, useEffect } from "react";
+import Header from "../../components/Header";
+import HeaderImage from "../../images/header_bg_3.jpg";
 import "./gallery.css";
 
 const Gallery = () => {
-  return <div>Gallery</div>;
+  const galleryLength = 15;
+  const [images, setImages] = useState([]);
+  
+  useEffect(() => {
+    const fetchImages = () => {
+      const imageArray = [];
+      for (let i = 1; i <= galleryLength; i++) {
+        import(`../../images/gallery${i}.jpg`)
+          .then((module) => module.default)
+          .then((image) => {
+            imageArray.push(image);
+            if (imageArray.length === galleryLength) {
+              setImages(imageArray);
+            }
+          })
+          .catch((error) => console.error("Error fetching images:", error));
+      }
+    };
+    
+    fetchImages();
+  }, []);
+  
+  return (
+    <>
+      <Header title="Our Gallery" image={HeaderImage}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+        accusamus.
+      </Header>
+      
+      <section className="gallery">
+        <div className="container gallery__container">
+          {images.map((image, index) => (
+            <article key={index}>
+              <img src={image} alt={`Gallery image ${index + 1}`} />
+            </article>
+          ))}
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Gallery;

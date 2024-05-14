@@ -26,14 +26,13 @@
 
 /* MEDIA QUERIES (small screens) */
 @media screen and (max-width: 600px) {
-    .contact__wrapper {
-        gap: 1.5rem;
-    }
+  .contact__wrapper {
+    gap: 1.5rem;
+  }
 
-    .contact__wrapper a {
-        padding: 1rem;
-        font-size: 1.2rem;
-        border-radius: 1rem;
-    }
+  .contact__wrapper a {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+  }
 }
-
