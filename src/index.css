@@ -196,6 +196,10 @@ section {
   color: var(--color-gray-100);
 }
 
+.header__content h2 {
+  margin-bottom: 1rem;
+}
+
 .header__content p {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -205,15 +209,15 @@ section {
   .container {
     width: var(--container-width-md);
   }
-  
+
   h1 {
     font-size: 2rem;
   }
-  
+
   h2 {
     font-size: 1.6rem;
   }
-  
+
   .header__content {
     width: 76%;
   }
@@ -224,25 +228,25 @@ section {
   .container {
     width: var(--container-width-md);
   }
-  
+
   section {
     margin-top: 7rem;
   }
-  
+
   h1 {
     font-size: 2.2rem;
     line-height: 1.3;
   }
-  
+
   .header {
     height: fit-content;
   }
-  
+
   .header__content {
     width: 100%;
     padding: 3rem 1.5rem;
   }
-  
+
   .header__content p {
     font-size: 0.85rem;
   }
