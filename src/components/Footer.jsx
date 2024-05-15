@@ -7,8 +7,10 @@ const Footer = () => {
     <footer>
       <div className="container footer__container">
         <article>
-          <Link to="/" className="logo">
-            <img src={Logo} alt="footer logo" />
+          <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
+            <div className="logo__container">
+              <span className="logo__text">FitHub</span>
+            </div>
           </Link>
           <p>
             Welcome to Fithub, your ultimate destination for fitness and

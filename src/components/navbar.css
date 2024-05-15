@@ -1,7 +1,7 @@
 nav {
   height: 5rem;
   width: 100vw;
-  background: var(--secondary-color);
+  background: #666;
   display: grid;
   place-items: center;
   position: fixed;
@@ -22,9 +22,37 @@ nav {
   align-items: center;
 }
 
-.logo {
-  width: 7rem;
-  display: block;
+.logo__container {
+  display: flex;
+  align-items: center;
+}
+.logo__text {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--accent-color),
+    var(--background-color)
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s infinite;
+  margin-left: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .nav__links {
@@ -84,6 +112,10 @@ nav {
   .active-nav,
   .active-nav::after {
     display: none;
+  }
+
+  .logo__text {
+    font-size: 1.5rem;
   }
 
   .nav__links li {
