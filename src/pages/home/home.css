@@ -240,7 +240,7 @@ footer {
   margin-top: 7rem;
   padding-top: 7rem;
   font-size: 0.9rem;
-  color: var(--color-gray-100);
+  color: var(--background-variant-color);
 }
 
 .footer__container {
@@ -262,6 +262,18 @@ footer {
 
 .footer__container article h4 {
   margin-bottom: 1rem;
+  color: var(--background-color);
+}
+
+.footer__container article a {
+  color: var(--background-color);
+  transition: var(--transition);
+}
+
+.footer__container article a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .footer__socials {
@@ -272,7 +284,7 @@ footer {
 }
 
 .footer__socials a {
-  background: var(--color-gray-100);
+  background: var(--primary-color);
   padding: 0.2rem 0.5rem;
   border: 1px solid transparent;
   border-radius: 0.6rem;
@@ -280,12 +292,12 @@ footer {
 }
 
 .footer__socials a:hover {
-  border-color: var(--color-gray-100);
-  background: transparent;
+  border-color: var(--accent-color);
+  background: var(--background-variant-color);
 }
 
 .footer__socials a svg {
-  background: var(--color-gray-600);
+  background: var(--primary-color);
 }
 
 .footer__copyright {
@@ -303,45 +315,45 @@ footer {
     height: fit-content;
     padding: 12rem 0;
   }
-
+  
   .main__header-container {
     gap: 0;
   }
-
+  
   .main__header-circle {
     width: 16rem;
     height: 16rem;
   }
-
+  
   /* PROGRAMS*/
   .programs__wrapper {
     grid-template-columns: 1fr 1fr;
   }
-
+  
   /* VaALUES */
   .values__container {
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 4rem;
   }
-
+  
   .values__wrapper {
     gap: 4rem 3rem;
   }
-
+  
   /* FAQS*/
-
+  
   .faqs__wrapper {
     grid-template-columns: 1fr;
   }
-
+  
   /* TESTIMONIALS */
   .testimonials {
     width: 75%;
   }
-
+  
   /* FOOTER */
-
+  
   .footer__container {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
@@ -355,73 +367,73 @@ footer {
     padding: 12rem 0;
     height: 100vh;
   }
-
+  
   .main__header-image,
   .main__header-circle {
     display: none;
   }
-
+  
   .main__header-container {
     grid-template-columns: 1fr;
   }
-
+  
   /* PROGRAMS */
   .programs__wrapper {
     grid-template-columns: 1fr;
     gap: 2rem;
     margin-top: 3rem;
   }
-
+  
   .programs__program {
     width: 84%;
     margin-inline: auto;
   }
-
+  
   /* VALUESS */
   .values__wrapper {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-
+  
   .values__image {
     width: 100%;
   }
-
+  
   .values__value {
     width: 84%;
     margin: 0 auto;
   }
-
+  
   /* FAQS */
   .faqs__wrapper {
     gap: 1rem;
     margin-top: 3rem;
   }
-
+  
   .faq {
     padding: 1.5rem;
   }
-
+  
   /* TESTIMONIALS */
   .testimonials {
     width: 100%;
   }
-
+  
   /* FOOTER */
-
+  
   footer {
     margin-top: 7rem;
   }
-
+  
   .footer__container {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-
+  
   .footer__container article {
     align-items: center;
   }
-
+  
   .footer__container article p {
     text-align: center;
   }

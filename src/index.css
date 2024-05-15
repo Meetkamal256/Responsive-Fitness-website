@@ -193,6 +193,7 @@ section {
 
 .header__content h2 {
   margin-bottom: 1rem;
+  color: var(--background-color);
 }
 
 .header__content p {
