@@ -246,12 +246,12 @@ export const plans = [
   },
 ];
 
-const Trainer1 = import("./images/trainer1.jpg");
-const Trainer2 = import("./images/trainer2.jpg");
-const Trainer3 = import("./images/trainer3.jpg");
-const Trainer4 = import("./images/trainer4.jpg");
-const Trainer5 = import("./images/trainer5.jpg");
-const Trainer6 = import("./images/trainer6.jpg");
+import Trainer1 from "./images/trainer1.jpg";
+import Trainer2 from "./images/trainer2.jpg";
+import Trainer3 from "./images/trainer3.jpg";
+import Trainer4 from "./images/trainer4.jpg";
+import Trainer5 from "./images/trainer5.jpg";
+import Trainer6 from "./images/trainer6.jpg";
 
 export const trainers = [
   {
