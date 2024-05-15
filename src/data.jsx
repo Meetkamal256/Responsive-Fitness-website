@@ -41,28 +41,28 @@ export const programs = [
     icon: <FaRunning />,
     title: "Cardio Blast",
     info: "Boost cardiovascular health, burn calories, and achieve fitness goals with dynamic Cardio Blast workouts.",
-    path: "/programs/111",
+    path: "#",
   },
   {
     id: 2,
     icon: <GiStrong />,
     title: "Strength Training",
     info: "Build strength, tone muscles, and sculpt your body with effective Strength Training exercises.",
-    path: "/programs/222",
+    path: "#",
   },
   {
     id: 3,
     icon: <GrYoga />,
     title: "Yoga & Meditation",
     info: "Find balance, flexibility, and inner peace with transformative Yoga & Meditation sessions.",
-    path: "/programs/333",
+    path: "#",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
     title: "HIIT",
     info: "Maximize calorie burn and boost metabolism with efficient High Intensity Interval Training (HIIT) workouts.",
-    path: "/programs/444",
+    path: "#",
   },
 ];
 export const values = [
