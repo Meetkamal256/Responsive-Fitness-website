@@ -73,7 +73,6 @@
 
 .section__title {
   color: var(--primary-color);
-
 }
 
 .programs {
@@ -201,7 +200,7 @@
 
 .testimonial:hover .testimonial__avatar {
   border-radius: 50%;
-  border-color: var(--color-gray-400);
+  border-color: var(--secondary-color);
 }
 
 .testimonial__quote {
@@ -228,7 +227,7 @@
 }
 
 .testimonials__btn svg {
-  fill: var(--color-primary);
+  fill: var(--primary-color);
   font-size: 1.8rem;
   width: 3rem;
   height: 3rem;
@@ -237,7 +236,7 @@
 /* ======================== Footer ============================== */
 
 footer {
-  background: var(--color-primary);
+  background: var(--secondary-color);
   margin-top: 7rem;
   padding-top: 7rem;
   font-size: 0.9rem;
