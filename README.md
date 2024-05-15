@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-[]
+[https://responsive-fitness-website-blcl8u8gt-meetkamal256s-projects.vercel.app/]
 
 ## Overview
 
