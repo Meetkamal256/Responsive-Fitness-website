@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <>
       <Header title="Get in Touch" image={HeaderImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-        perferendis?
+        Need assistance? Contact us. We'll respond
+        promptly.
       </Header>
       <section className="contact">
         <div className="container contact__container">

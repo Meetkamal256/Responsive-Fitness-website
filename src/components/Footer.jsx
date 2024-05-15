@@ -11,7 +11,8 @@ const Footer = () => {
             <img src={Logo} alt="footer logo" />
           </Link>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda.
+            Welcome to Fithub, your ultimate destination for fitness and
+            wellness. Join us and embark on a journey to a healthier lifestyle!
           </p>
           <div className="footer__socials">
             <a
@@ -67,7 +68,9 @@ const Footer = () => {
         </article>
       </div>
       <div className="footer__copyright">
-        <small>2024 &copy; All Rights Reserved </small>
+        <small>
+          &copy; 2024 Fithub Recreational Center. All Rights Reserved{" "}
+        </small>
       </div>
     </footer>
   );
