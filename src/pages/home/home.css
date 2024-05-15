@@ -67,8 +67,8 @@
 }
 
 .section__head .section__icon:hover {
-  background: var(--background-variant-color);
-  color: var(--color-primary);
+  background: var(--secondary-color);
+  color: var(--background-color);
 }
 
 .section__title {
