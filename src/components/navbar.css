@@ -1,13 +1,14 @@
 nav {
   height: 5rem;
   width: 100vw;
-  background: var(--color-primary);
+  background: var(--secondary-color);
   display: grid;
   place-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav__toggle-btn {
@@ -33,11 +34,12 @@ nav {
 }
 
 .nav__links a {
+  color: var(--background-variant-color);
   transition: var(--transition);
 }
 
 .nav__links a:hover {
-  color: var(--color-secondary);
+  color: var(--background-color-variant);
 }
 
 .active-nav {
@@ -49,14 +51,14 @@ nav {
   display: block;
   width: 1.2rem;
   height: 1.2rem;
-  background: var(--color-primary);
+  background: var(--secondary-color);
   position: absolute;
   left: calc(50% - 0.6rem);
   transform: rotate(45deg);
   margin-top: 0.9rem;
 }
 
-/* MEDIA QUERIES  (medium and small screens */
+/* MEDIA QUERIES (medium and small screens) */
 
 @media screen and (max-width: 1024px) {
   .nav__toggle-btn {
@@ -64,11 +66,11 @@ nav {
     background: transparent;
     font-size: 1.8rem;
   }
-
+  
   .nav__toggle-btn svg {
-    color: var(--color-gray-100);
+    color: var(--background-color);
   }
-
+  
   .nav__links {
     position: absolute;
     top: 100%;
@@ -77,12 +79,12 @@ nav {
     gap: 0;
     perspective: 400px;
   }
-
+  
   .active-nav,
   .active-nav::after {
     display: none;
   }
-
+  
   .nav__links li {
     height: 4rem;
     width: 100%;
@@ -92,51 +94,51 @@ nav {
     opacity: 0;
     transform-origin: top;
   }
-
+  
   .nav__links li:nth-child(2) {
     animation-delay: 200ms;
   }
-
+  
   .nav__links li:nth-child(3) {
     animation-delay: 400ms;
   }
-
+  
   .nav__links li:nth-child(4) {
     animation-delay: 600ms;
   }
-
+  
   .nav__links li:nth-child(5) {
     animation-delay: 800ms;
   }
-
+  
   .nav__links li:nth-child(6) {
     animation-delay: 1s;
   }
-
+  
   .nav__links li:nth-child(7) {
     animation-delay: 1.2s;
   }
-
+  
   @keyframes navAnimation {
     to {
       transform: rotateX(0);
       opacity: 1;
     }
   }
-
+  
   .nav__links li a {
-    background: var(--color-primary);
+    background: var(--secondary-color);
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     padding: 1rem 5rem 1rem 3rem;
   }
-
+  
   .show__nav {
     display: flex;
   }
-
+  
   .hide__nav {
     display: none;
   }
