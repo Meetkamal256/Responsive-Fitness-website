@@ -22,18 +22,10 @@ const Contact = () => {
             >
               <MdEmail />
             </a>
-            <a
-              href="mailto:meetkamal256@gmail.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a href="#" target="_blank" rel="noreferrer noopener">
               <BsMessenger />
             </a>
-            <a
-              href="https://wa.me/+2348164682518"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a href="#" target="_blank" rel="noreferrer noopener">
               <IoLogoWhatsapp />
             </a>
           </div>
