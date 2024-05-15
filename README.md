@@ -1,8 +1,42 @@
-# React + Vite
+# FitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshot
 
-Currently, two official plugins are available:
+![fithub-screenshot](https://github.com/Meetkamal256/Responsive-Fitness-website/assets/104779844/084165e0-a8e3-4399-b813-025a13467b8b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Live Demo
+
+[]
+
+## Overview
+
+A Responsive Recreational Fitness center built with HTML, CSS and React js
+
+## Installation
+
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/Meetkamal256/Responsive-Fitness-website.git
+   ```
+
+2. Navigate to the project directory:
+   
+   ```bash
+   cd ./
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+Run the development server:
+
+``` bash
+npm run dev
+
+```
