@@ -13,22 +13,22 @@
 }
 
 .plan h1 {
-  color: var(--color-primary-variant);
   display: inline;
+  color: avr(--primary-color);
 }
 
 .plan h2 {
   display: inline;
-  color: var(--color-gray-400);
+  color: var(--text-color);
 }
 
 .plan p {
   margin-top: 1rem;
-  color: var(--color-gray-100);
+  color: var(--primary-color);
 }
 
 .plan p.disabled {
-  color: var(--color-gray-400);
+  color: var(--accent-color);
 }
 
 .plan button {
