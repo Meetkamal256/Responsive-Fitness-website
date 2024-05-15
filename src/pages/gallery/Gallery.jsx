@@ -6,7 +6,7 @@ import "./gallery.css";
 const Gallery = () => {
   const galleryLength = 15;
   const [images, setImages] = useState([]);
-
+  
   useEffect(() => {
     const fetchImages = () => {
       const imageArray = [];
