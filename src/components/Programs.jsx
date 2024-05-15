@@ -10,7 +10,7 @@ const Programs = () => {
     <section className="programs">
       <div className="container programs__container">
         <SectionHead icon={<FaCrown />} title={"Programs"} />
-        
+
         <div className="programs__wrapper">
           {programs.map((program) => {
             const { id, icon, title, info, path } = program;

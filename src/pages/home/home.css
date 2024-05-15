@@ -59,8 +59,23 @@
   filter: blur(5px);
 }
 
-
 /* ====================== PROGRAMS ============================ */
+
+.section__head .section__icon {
+  background: var(--primary-color);
+  color: var(--background-color);
+}
+
+.section__head .section__icon:hover {
+  background: var(--background-variant-color);
+  color: var(--color-primary);
+}
+
+.section__title {
+  color: var(--primary-color);
+
+}
+
 .programs {
   margin-top: 8rem;
 }
